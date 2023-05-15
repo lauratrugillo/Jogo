@@ -1,2 +1,2 @@
 # Jogo
-Jogo feito na aula de java
+Projeto de jogo realizado na aula de Java.
