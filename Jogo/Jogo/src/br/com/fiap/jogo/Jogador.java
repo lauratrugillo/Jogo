@@ -47,7 +47,15 @@ public abstract class Jogador {
 	}
 
 	public void receberAntidoto() {
-		envenenado = !envenenado;
+		if (isEnvenenado()) {
+			envenenado = !envenenado;
+			System.out.println("Você não está mais envenenado");
+		}
+		else {
+			System.out.println();
+		}
+		
+		
 		
 	}
 
