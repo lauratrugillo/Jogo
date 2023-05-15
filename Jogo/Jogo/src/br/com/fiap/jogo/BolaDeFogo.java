@@ -6,7 +6,6 @@ public class BolaDeFogo implements Fase{
 
 	@Override
 	public int Mover(int x, int y) {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 

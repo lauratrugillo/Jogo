@@ -2,9 +2,14 @@ package br.com.fiap.jogo;
 
 public class Guerreiro extends Jogador implements Fase{
 
+	public Guerreiro() {}
+	
+	public Guerreiro(String nome) {
+		super(nome);
+	}
+	
 	@Override
 	public int Mover(int x, int y) {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 

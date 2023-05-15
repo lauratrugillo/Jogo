@@ -47,14 +47,7 @@ public abstract class Jogador {
 	}
 
 	public void receberAntidoto() {
-		if (isEnvenenado()) {
-			envenenado = !envenenado;
-			System.out.println("Você não está mais envenenado");
-		}
-		else {
-			System.out.println();
-		}
-		
+		envenenado = !envenenado;
 		
 		
 	}
@@ -68,5 +61,13 @@ public abstract class Jogador {
 
 	private boolean foiDerrotado() {
 		return hp <= 0;
+	}
+	
+	public void mostrarJogador() {
+		System.out.println("Jogador " + getNome() + 
+				" XP=" + getXp() +
+				" HP=" + getHp() +
+				" Env=" + isEnvenenado() 
+);
 	}
 }
